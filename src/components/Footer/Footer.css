@@ -1,0 +1,48 @@
+.f-container{
+    justify-content: space-between;
+    border-top: 4px solid rgba(0, 0, 0, 0.148)
+}
+.f-left{
+    gap: 1rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.f-wrapper{
+    font-size: 1.2rem;
+    background:rgb(255, 255, 255);
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+.logo{
+    color: rgb(93, 93, 255);
+    font-size: .5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.text-cor{
+    color: rgb(93, 93, 255);
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        justify-content: center;
+    }
+}
