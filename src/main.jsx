@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-vilam7wggr8obwx7.us.auth0.com"
      clientId="dmfu3f6Ar6jyyuVmhMRe0cu3odreMqab"
      authorizationParams={{
-      redirect_uri: "https://homefind-orpin.vercel.app"
+      redirect_uri: "https://main.d2n0y8ywifgguf.amplifyapp.com/"
      }}
      audience="http://localhost:3000"
      scope="openid profile email"
